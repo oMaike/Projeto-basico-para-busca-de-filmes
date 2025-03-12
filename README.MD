@@ -66,8 +66,9 @@ function displayMovieInfo(data) {
         <p><strong>Plot:</strong> ${data.Plot}</p>
         <p><strong>Avaliação IMDB:</strong> ${data.imdbRating}</p>
         <p><strong>Idioma:</strong> ${data.Language}</p>
-    ;
+    ´;
 }
+
 # Requisitos
 
 Navegador moderno com suporte a JavaScript.
