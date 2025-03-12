@@ -25,13 +25,16 @@ Preenche um div com o ID movie-info com essas informações.
 
 # Como usar
 Clone este repositório em seu ambiente local.
+
 Substitua a variável apiKey no código pela sua própria chave de API da OMDb. Você pode obter uma chave de API gratuita em OMDb API.
 Abra o arquivo HTML em seu navegador.
+
 Insira o título do filme na caixa de pesquisa e clique para buscar.
+
 As informações do filme serão exibidas na página.
-Estrutura do Código
-javascript
-Copiar
+
+# Estrutura do Código
+
 // Função para buscar o filme com base no título fornecido
 function searchMovie() {
     const title = document.getElementById('movie-title').value;
